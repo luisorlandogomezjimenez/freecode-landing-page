@@ -244,4 +244,41 @@ a {
   .menu-btn {
     display: block;
   }
+
+  #nav-bar ul.nav-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #384557;
+    height: 300%;
+    width: 30%;
+    padding: 30px;
+    opacity: 0.9;
+    transform: translateX(-400px);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  a.nav-link {
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    text-align: left;
+    color: #ccdbfd;
+    font-size: 14px;
+  }
+
+  #nav-bar ul.nav-menu.show {
+    transform: translateX(-20px);
+  }
+
+  #footer2 li {
+    width: 100%;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  #footer3 {
+    width: 100%;
+  }
 }
