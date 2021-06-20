@@ -9,6 +9,7 @@ body {
 }
 
 #header {
+  position: fixed;
   top: 0;
   left: 0;
 }
@@ -187,10 +188,6 @@ a {
 }
 
 @media (max-width: 900px) {
-  .naving {
-    background-color: yellow;
-  }
-
   #separate-top {
     margin-top: 150px;
   }
